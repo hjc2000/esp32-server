@@ -13,7 +13,6 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <SPI.h>
-#include <SD.h>
 #include "SDWebServer.h"
 
 using namespace SDWebServer;
