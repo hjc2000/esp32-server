@@ -1,0 +1,2 @@
+# ESP32_HttpServer
+用于ESP32的HTTP服务器。使用SD卡储存网页静态文件。
