@@ -1,6 +1,6 @@
-#include "ESP32_HttpServer.h"
+#include "SDWebServer.h"
 
-namespace ESP32_HttpServer
+namespace SDWebServer
 {
     void SetUpWifi(const char *ssid, const char *password)
     {

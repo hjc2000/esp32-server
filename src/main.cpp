@@ -14,15 +14,12 @@
 #include <WiFi.h>
 #include <SPI.h>
 #include <SD.h>
-#include <WebServer.h>
-#include "ESP32_HttpServer.h"
+#include "SDWebServer.h"
 
-using namespace ESP32_HttpServer;
+using namespace SDWebServer;
 
 void handleUserRequet();
 bool handleFileRead(String path);
-
-WebServer *g_pWebServer = nullptr;
 
 void setup()
 {
