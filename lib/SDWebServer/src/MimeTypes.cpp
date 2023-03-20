@@ -9,7 +9,8 @@ namespace SDWebServer
     {
       return it->first;
     }
-    return "";
+    // 找不到则返回默认mime类型
+    return "application/octet-stream";
   }
 
   std::map<String, String> MimeTypes::_Types = {
